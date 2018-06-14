@@ -1,0 +1,83 @@
+#container {
+    width: 300px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: #add8e6;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#clear-btn {
+    width: 45px;
+    height: 27px;
+    background-color: #333;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+}
+
+#output {
+    width: 225px;
+    height: 27px;
+    background-color: #666;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 27px;
+    margin-left: 10px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+
+#num1, #num2, #num3,
+#num4, #num5, #num6,
+#num7, #num8, #num9,
+#num0, #operatorPlus,
+#operatorMinus, #operatorMultiply,
+#operatorDivide,
+#num-dot {
+    width: 55px;
+    height: 27px;
+    background-color: #fefefe;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-left: 13px;
+    padding: 5px;
+    color: #333;
+    border-radius: 5px;
+    float: left;
+}
+
+#num1, #num4, #num7, #num0 {
+    margin-left: 0px;
+}
+
+#operatorPlus, #operatorMinus,
+#operatorMultiply, #operatorDivide {
+    background-color: pink;
+}
+
+#equal-key {
+    width: 55px;
+    height: 27px;
+    background-color: #ff4c4c;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-left: 13px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+}
