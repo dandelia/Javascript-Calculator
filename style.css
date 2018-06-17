@@ -58,6 +58,30 @@
     float: left;
 }
 
+#num1:hover, #num2:hover, #num3:hover,
+#num4:hover, #num5:hover, #num6:hover,
+#num7:hover, #num8:hover, #num9:hover,
+#num0:hover {
+    background: #9c89f6;
+    /*box-shadow: 0px 4px #6b54d3;*/
+    color: white;
+}
+
+#operatorPlus:hover,
+#operatorMinus:hover,
+#operatorMultiply:hover,
+#operatorDivide:hover,
+#num-dot:hover {
+    background: #abb850;
+    /*box-shadow: 0px 4px #717a33;*/
+    color: #ffffff;
+}
+
+#clear-btn:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
 #num1, #num4, #num7, #num0 {
     margin-left: 0px;
 }
@@ -80,4 +104,20 @@
     color: #fff;
     border-radius: 5px;
     float: left;
+}
+
+#equal-key:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+#num1:active, #num2:active, #num3:active,
+#num4:active, #num5:active, #num6:active,
+#num7:active, #num8:active, #num9:active,
+#num0:active, #operatorPlus:active,
+#operatorMinus:active, #operatorMultiply:active,
+#operatorDivide:active,
+#num-dot:active {
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
 }
